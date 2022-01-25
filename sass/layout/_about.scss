@@ -1,0 +1,40 @@
+.section-about {
+    padding: 150px 0;
+    width: 1080px;
+    margin: 0 auto;
+    display: block;
+}
+
+.section-about__title {
+    visibility: hidden;
+}
+
+.box {
+    display: flex;
+    gap: 140px;
+}
+
+.box__title {
+font-weight: bold;
+font-size: 36px;
+line-height: 140%;
+
+color: $firstColor;
+padding-bottom: 40px;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.section-about__img {
+    width: 416px;
+}
+
+.section-about__box__text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+
